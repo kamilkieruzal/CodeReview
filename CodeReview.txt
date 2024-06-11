@@ -1,0 +1,4 @@
+﻿1 - całość operacji na _context możnaby przenieść do osobnego serwisu
+2 - null-check na wybranym z bazy userze - próba usunięcia nulla wyrzuci wyjątek
+3 - opakowanie w try catch i zamiast(lub oprócz) Debug.WriteLine - dodanie jakiegoś logowania (np do pliku), można by dodać Message z exception do logowania
+4 - (kosmetyka/preferencja) - możnaby zamienić w pierwszej linijce User na var
